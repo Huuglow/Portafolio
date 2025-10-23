@@ -1,0 +1,154 @@
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@-o-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@font-face {
+    font-family: 'bebas';
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+h1{
+    display: block;
+    font-size: 45px;
+    font-family: 'bebas', sans-serif;
+    color: #7952e8;
+    margin: 5% 50% 0 5%;
+    border: none 30px solid;
+    margin-left: 10%;
+
+}
+.name{
+    display: block;
+    font-size: 35px;
+    font-family: 'bebas', sans-serif;
+    color: #1e0ca3;
+    margin: 10px 0 10px 0;
+    justify-self:  left ;
+    text-align: left;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 60%;
+    
+}
+.Desarrollador{
+    display: block;
+    font-size: 35px;
+    font-family: 'bebas', sans-serif;
+    color: #ff6f00;
+    margin: 20px 0 10px 0;
+    justify-self:  right ;
+    justify-items: center;
+    margin: 0 20% 0 50%;
+}
+.Welcome{
+    display: block;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    margin: 20px 0 10px 0;
+    justify-self:  center ;
+    text-align: left;
+    align-items: center;
+    margin: 0 10% 0 50%;
+}
+html {
+    box-sizing: border-box;
+    margin: 5% 10% 5% 10%;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.yo{
+    width: 300px;
+    height: 300px;
+    margin: 0 60% 10% 5%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.design{
+    font-size: 35px;
+    font-family: 'bebas', sans-serif;
+    color: #ff6f00;
+    margin: 10% 70% 0 10%;
+}
+.designp{
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    margin: 0 40% 0 10%;
+}
+.desarrollo{
+    font-size: 35px;
+    font-family: 'bebas', sans-serif;
+    color: #ff6f00;
+    margin: 0 10% 0 50%;
+}
+.desarrp{
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    margin: 0 10% 0 50%;
+    
+}
+.list{
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    margin: 0 10% 0 50%;
+}
+.perfil{
+    font-size: 35px;
+    font-family: 'bebas', sans-serif;
+    color: #ff6f00;
+    margin: 10% 70% 0 10%;
+}
+.presentacion{
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    margin: 0 10% 0 10%;
+}
+
+body {
+    /* <length> values */
+scroll-margin-block: 10px;
+scroll-margin-block: 1em 0.5em;
+
+/* Global values */
+scroll-margin-block: inherit;
+scroll-margin-block: initial;
+scroll-margin-block: revert;
+scroll-margin-block: revert-layer;
+scroll-margin-block: unset;
+}
+body {
+    background-color: ghostwhite;
+}
+
+
+
